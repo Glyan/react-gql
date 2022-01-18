@@ -23,7 +23,7 @@ export default function Search () {
     })
 
     return (
-        <div className="">
+        <div>
             <input value={name} onChange={(e) => setName(e.target.value)}/>
             <button onClick={() => getLocations()}>Search</button>
             {loading && <div>Loading...</div>}
